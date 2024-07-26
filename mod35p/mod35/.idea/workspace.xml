@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3db3432-202d-44d6-a897-4287b8b70c55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/IClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/IProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/IVendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/Persistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/VendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/factory/ClienteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/factory/ProdutoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/factory/ProdutoQuantidadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/factory/VendaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/GenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/IGenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/SingletonMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/jpa/GenericJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/jpa/IGenericJapDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/ClienteJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/IClienteJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/IProdutoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/IVendaJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/ProdutoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/VendaJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/ProdutoQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/jpa/ClienteJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/jpa/ProdutoJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/jpa/ProdutoQuantidadeJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/jpa/VendaJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/exceptions/DAOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/exceptions/MaisDeUmRegistroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/exceptions/TableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/exceptions/TipoElementoNaoConhecidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/IClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/IProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/generic/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/generic/IGenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/generic/jpa/GenericJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/generic/jpa/IGenericJpaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mod32" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pedrocaah&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pedrocaah/Tarefas-EBAC.git&quot;,
+    &quot;accountId&quot;: &quot;516a7b03-ea98-4560-96a4-9a09340a17a6&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2h4cyrRHbuoPF5nSUAp3sK8TSRc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3db3432-202d-44d6-a897-4287b8b70c55" name="Changes" comment="" />
+      <created>1716857049475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716857049475</updated>
+      <workItem from="1716857050561" duration="353000" />
+      <workItem from="1716857440260" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
